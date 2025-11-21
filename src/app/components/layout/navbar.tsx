@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils';
 import { Waves } from 'lucide-react';
 
 const navLinks = [
+  { href: '/about', label: 'About' },
   { href: '/mint', label: 'Mint' },
   { href: '/market', label: 'Market' },
   { href: '/profile', label: 'Profile' },

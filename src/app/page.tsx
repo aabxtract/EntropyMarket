@@ -17,12 +17,12 @@ export default function Home() {
           />
           <div className="mt-8 flex items-center justify-center gap-4">
             <Button asChild size="lg" className="font-headline">
-              <Link href="/market">
+              <Link href="/market" prefetch={true}>
                 Enter the Market <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="font-headline">
-              <Link href="/mint">Mint a Seed</Link>
+              <Link href="/mint" prefetch={true}>Mint a Seed</Link>
             </Button>
           </div>
           <Card className="glassmorphism mt-16 max-w-2xl text-left">

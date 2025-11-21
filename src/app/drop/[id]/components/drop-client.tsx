@@ -91,10 +91,10 @@ export default function DropClient({ seed }: { seed: Seed }) {
             </CardContent>
             <CardFooter className="flex-col gap-4">
               <Button asChild size="lg" className="w-full font-headline">
-                <Link href="/profile">View in My Collection</Link>
+                <Link href="/profile" prefetch={true}>View in My Collection</Link>
               </Button>
               <Button asChild variant="ghost" className="w-full font-headline">
-                <Link href="/market">Back to Market</Link>
+                <Link href="/market" prefetch={true}>Back to Market</Link>
               </Button>
             </CardFooter>
           </Card>

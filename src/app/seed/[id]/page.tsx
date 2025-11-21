@@ -76,7 +76,7 @@ export default function SeedDetailsPage({ params }: { params: { id: string } }) 
                    <Tag className="mr-2"/> Make Offer
                 </Button>
                  <Button asChild size="lg" variant="destructive" className="w-full font-headline bg-amber-600 hover:bg-amber-700 text-white">
-                  <Link href={`/drop/${seed.id}`}>
+                  <Link href={`/drop/${seed.id}`} prefetch={true}>
                     <Flame className="mr-2"/> Burn for Drop
                   </Link>
                 </Button>

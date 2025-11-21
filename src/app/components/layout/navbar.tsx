@@ -16,7 +16,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/80 backdrop-blur-xl">
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" prefetch={true} className="flex items-center gap-2">
           <Waves className="h-7 w-7 text-primary" />
